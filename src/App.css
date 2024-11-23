@@ -1,0 +1,25 @@
+/* app.css */
+/* app.css or index.css */
+.floor-plan {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+#bedroom-1 {
+  background-color: lightblue;
+}
+
+#bedroom-2 {
+  background-color: lightgreen;
+}
+
+#bedroom-3 {
+  background-color: lightcoral;
+}
+
+div {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
